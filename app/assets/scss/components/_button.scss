@@ -1,0 +1,33 @@
+.btn-talk {
+  width: 220px;
+  height: 58px;
+  font-size: 18px;
+  color: $light-color;
+  font-weight: 500;
+  line-height: 42px;
+  text-transform: capitalize;
+  font-family: $primary-font;
+  border-radius: 4px;
+  background-color: $secondary-color;
+  box-shadow: 5px 11px 8px -6px rgba($secondary-color, 0.8);
+  &:hover {
+    color: $light-color;
+  }
+}
+.btn-icon {
+  width: 65px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-color;
+  position: absolute;
+  left: 59%;
+  top: 0;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}

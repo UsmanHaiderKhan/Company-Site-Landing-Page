@@ -1,0 +1,37 @@
+/*================================= 
+Home Section Styling
+=================================*/
+.hero-mt {
+  margin-top: 5.45rem;
+}
+
+#home {
+  .banner-container {
+    width: 100%;
+    height: auto;
+    margin-top: -141px;
+    padding: 381px 0 199px 0;
+    background-size: auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(../imgaes/bg.svg);
+  }
+
+  .main-banner-text {
+    font-size: 50px;
+    color: $primary-color;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  .main-banner-pera {
+    font-size: 16px;
+    color: $light-grey;
+    font-family: $secondary-font;
+  }
+  .img-position {
+    position: absolute;
+    top: 20%;
+    right: 14px;
+    transform: translate(0, -50%);
+  }
+}

@@ -1,0 +1,32 @@
+/*================================= 
+      Nav Section Styling
+=================================*/
+
+.navbar {
+  padding: 20px 0px 0 0;
+}
+.navbar-toggler {
+  border: 2px solid $light-color;
+}
+
+.navbar-nav {
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 0 10px;
+    position: relative;
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 17px;
+    font-weight: 400;
+    color: $light-color !important;
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-weight: bold;
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+  }
+}

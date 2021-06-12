@@ -1,0 +1,30 @@
+/* ===============
+      Variables
+   =============== */
+
+$primary-color: #1d164d;
+$secondary-color: #4099f1;
+$light-color: #ffffff;
+$light-grey: #9e9baf;
+$border-color: #0000;
+$border-one: #98eef9;
+$border-two: #c6c5ff;
+$border-three: #908cfc;
+$border-four: #ff909c;
+//
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: 'Muli-Bold', sans-serif;
+  src: url(../../fonts/Muli-Bold.ttf);
+}
+@font-face {
+  font-family: 'Muli-regular', sans-serif;
+  src: url(../../fonts/Muli.ttf);
+}
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Muli-bold', sans-serif;
+$secondary-font-reg: 'Muli-regular', sans-serif;

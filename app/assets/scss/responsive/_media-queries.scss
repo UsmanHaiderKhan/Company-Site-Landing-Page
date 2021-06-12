@@ -1,0 +1,134 @@
+/*================================= 
+Media Queries Styling
+=================================*/
+@media only screen and (max-width: 1450px) {
+}
+
+@media only screen and (max-width: 1367px) {
+  #home {
+    .main-banner-text {
+      font-size: 46px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+}
+
+@media only screen and (max-width: 1025px) {
+  #home {
+    .media-width {
+      width: 100%;
+    }
+    .banner-container {
+      margin-top: -87px;
+      padding: 230px 0 70px 0;
+    }
+    .main-banner-text {
+      font-size: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .navbar-toggler {
+    float: right;
+  }
+  #home {
+    .main-banner-text {
+      font-size: 47px;
+    }
+    .banner-container {
+      padding: 190px 0 70px 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+}
+
+@media only screen and (max-width: 801px) {
+  #home {
+    .main-banner-pera {
+      color: $light-color !important;
+    }
+    .main-banner-text {
+      font-size: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 769px) {
+}
+
+@media only screen and (max-width: 766px) {
+  #home {
+    .img-position {
+      position: unset;
+      top: unset;
+      right: unset;
+      transform: unset;
+    }
+    .banner-container {
+      padding: 133px 0 70px 0;
+    }
+    .media-img-mt {
+      margin-top: -3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+}
+
+@media only screen and (max-width: 540px) {
+}
+
+@media only screen and (max-width: 415px) {
+}
+
+@media only screen and (max-width: 411px) {
+}
+
+@media only screen and (max-width: 398px) {
+}
+
+@media only screen and (max-width: 376px) {
+}
+
+@media only screen and (max-width: 361px) {
+}
+
+@media only screen and (max-width: 321px) {
+}
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media only screen and (max-width: 1367px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 830px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 732px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 668px) and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 641px) and (orientation: landscape) {
+}
